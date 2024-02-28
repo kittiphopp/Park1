@@ -1,5 +1,4 @@
 
-// eslint-disable-next-line react/prop-types
 const Hello = ({ message, name }) => {
     console.log({ message, name });
     return (
