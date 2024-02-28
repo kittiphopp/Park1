@@ -4,7 +4,7 @@ import Hello from './assets/Hello';
 
 function App() {
   const helloData = [
-    { name: 'Kittiphop', message: 'Hi there' },
+    { name: 'Anirach', message: 'Hi there' },
     { name: 'Tom', message: 'Hello..' }
   ];
 
@@ -14,7 +14,7 @@ function App() {
         <Hello key={index} name={data.name} message={data.message} />
       ))}
 
-      <Contact email="Kittiphop@gmail.com" phon="0631871262" />
+      <Contact email="Anirach@gmail.com" phon="0817320731" />
     </div>
   );
 }
